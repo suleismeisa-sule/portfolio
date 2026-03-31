@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020617;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(to right, #1e3a8a, #9333ea);
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #22c55e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* CONTAINER */
+.container {
+    padding: 50px;
+}
+
+/* CARDS */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* FORM */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
